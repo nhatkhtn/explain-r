@@ -35,7 +35,7 @@ In the following instruction, we use the ImageNet dataset as the example. To use
 
 To run this code on other datasets, define the dataset in ```exrep/dataset``` following existing examples.
 
-### Step 0: obtain captions (for datasets without captions).
+### Step 0: obtain captions (for datasets without captions)
 
 By default, we use the ```blip2-opt-2.7b-coco``` model. For example:
 
@@ -44,7 +44,9 @@ python scripts/captioning.py ImageNet --split test --temperature 1.3
 ```
 The above command would generate a file at (by default): ```outputs/imagenet/captions.json```.
 
-### Step 1: Concept identification. Example:
+### Step 1: Concept identification
+
+Example:
 ```python
 python scripts/concept_encode.py ImageNet -c outputs/imagenet/captions.json --max_threshold 0.1
 ```
@@ -58,7 +60,7 @@ See our [example](configs/train_imagenet.yaml) config file for the parameters.
 python scripts/train_surrogate.py --config config.yml
 ```
 
-The checkpoints are saved by default at ```outputs/imagenet/ckpts/<run_name>_<>.pt```.
+The checkpoints are saved by default at ```outputs/imagenet/ckpts/<run_name>_<>.pt```
 
 ### Step 3: Obtain explanations
 
