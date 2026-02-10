@@ -63,3 +63,17 @@ The checkpoints are saved by default at ```outputs/imagenet/ckpts/<run_name>_<>.
 ### Step 3: Obtain explanations
 
 See `notebooks/attribution_single.ipynb`
+
+### Citation
+
+If you find this repo or our work helpful, please consider citing our work:
+
+```bibtex
+@inproceedings{hoang-xuan2025advancing,
+    title={Advancing Interpretability of {CLIP} Representations with Concept Surrogate Model},
+    author={Nhat Hoang-Xuan and Xiyuan Wei and Wanli Xing and Tianbao Yang and My T. Thai},
+    booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+    year={2025},
+    url={https://openreview.net/forum?id=KxoPiQ03BT}
+}
+```
