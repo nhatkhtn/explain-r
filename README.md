@@ -64,7 +64,7 @@ The checkpoints are saved by default at ```outputs/imagenet/ckpts/<run_name>_<>.
 
 See `notebooks/attribution_single.ipynb`
 
-### Citation
+## Citation
 
 If you find this repo or our work helpful, please consider citing our work:
 
