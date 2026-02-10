@@ -1,0 +1,12 @@
+torch
+torchvision
+ipykernel
+ipywidgets
+transformers>=4.50.0
+scikit-learn
+nltk
+pycocotools
+poetry
+python-dotenv
+wandb
+git+https://github.com/openai/CLIP.git
